@@ -1,0 +1,419 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- aos cdn css link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- aos cdn js link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- cdn script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- intialize aos script link -->
+    <script>
+        AOS.init();
+      </script>
+    <!-- navbar 1st division                          navbr class-->
+        <nav class="navbar navbar-expand-lg navbar-dark p-md-3 navbr ">
+            <div class="container-fluid">
+                <img src="images/logo.png">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- tgle class for toggle background color -->
+                <div class="offcanvas offcanvas-end tgle" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <ul class="navbar-nav offcanvas-body home" >
+                        <!-- <li>
+                            <img src="images/logo.png">
+                        </li> -->
+                        <li class="nav-item ">
+                            <a class="nav-link" id="nvbtn" aria-current="page" href="#dd2">HOME</a>
+                        </li>
+                        <li class="nav-item" id="nvbtn">
+                            <a class="nav-link" href="#dd3">ABOUT US</a>
+                        </li>
+                        <li class="nav-item" id="nvbtn">
+                            <a class="nav-link" href="#dd4">CLASSES</a>
+                        </li>
+                        <li class="nav-item" id="nvbtn">
+                            <a class="nav-link" href="#dd6">PLANS</a>
+                        </li>
+                        <li class="nav-item" id="nvbtn">
+                            <a class="nav-link" href="#dd7">PAGES</a>
+                        </li>
+                        <li class="nav-item" id="nvbtn">
+                            <a class="nav-link" href="#dd8">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 2nd division -->
+        <!-- <div id="carouselExampleFade dd2" class="carousel slide carousel-fade d2">
+            <div class="carousel-inner">
+                <div class="carousel-item active crsl1">
+                    <img src="images/Screenshot 2024-07-22 230533.png" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block txt1" data-aos="zoom-out" data-aos-duration="1500">
+                        <p>SHAPE YOUR BODY</p>
+                        <h1><b> BE <span>STRONG </span> <br>TRANING HARD </b></h1>
+                    </div>
+                </div>
+
+                <div class="carousel-item active">
+                    <img src="images/hero-2.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block txt2" data-aos="zoom-out" data-aos-duration="1500">
+                        <p>SHAPE YOUR BODY</p>
+                        <h1><b> BE <span>STRONG </span> <br>TRANING HARD </b></h1>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div> -->
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Screenshot 2024-07-22 230533.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/2screenshot 2024-07-22 230909.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+        <!-- 3rd division        icons class-->
+        <div class="container-fluid icons" id="dd3">
+            <div class="tophead1" data-aos="zoom-out" data-aos-duration="1500">
+                <p>WHY CHOSE US?</p>
+                <h2>PUSH YOUR LIMITS FORWARD</h2>
+            </div>
+            <div class="container cd">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col" id="brdr">
+                        <!-- crd1 -->
+                        <div class="card h-100" id="crd">
+                            <!-- cimg -->
+                            <div id="cimg">
+                                <img src=" https://cdn-icons-png.flaticon.com/128/883/883386.png " class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title" style="color: white;"><b>Modern equipment</b></h5>
+                            <p class="card-text" style="color: grey;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col"  id="brdr">
+                        <!-- crd2 -->
+                        <div class="card crd2 h-100" id="crd">
+                            <div id="cimg">
+                                <img src="https://cdn-icons-png.flaticon.com/128/2756/2756716.png">
+                            </div>
+                                <div class="card-body">
+                                <h5 class="card-title" style="color: white;"><b>Healthy nutrition plan</b></h5>
+                                <p class="card-text" style="color: grey;"> Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col"  id="brdr">
+                        <!-- crd3 -->
+                        <div class="card crd3 h-100" id="crd">
+                            <div id="cimg">
+                                <img src=" https://cdn-icons-png.flaticon.com/128/7875/7875270.png " class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: white;"><b>Proffesponal training plan</b></h5>
+                                <p class="card-text" style="color: grey;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col"  id="brdr">
+                        <!-- crd4 -->
+                    <div class="card crd4 h-100" id="crd">
+                        <div id="cimg">
+                            <img src=" https://cdn-icons-png.flaticon.com/128/771/771557.png " class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: white;"><b>Unique to your needs</b></h5>
+                            <p class="card-text ct" style="color: grey;">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 4th division       clss class-->
+        <div class="container-fluid clss" id="dd4">
+            <div class="tophead2" data-aos="zoom-out" data-aos-duration="1500">
+                <p>OUR CLASSES</p>
+                <h2>WHAT WE CAN OFFER</h2>
+            </div>
+                <div class="container cd1">
+                    <div class="row row-cols-1 row-cols-md-3 g-4"> <!-- 1st row-->
+                        <div class="col">
+                            <div class="card h-100" id="brdd"> <!-- card1-->
+                                <img src="images/class-1.jpg" class="card-img-top">
+                                <div class="card-body" id="cc"> 
+                                    <p class="card-title" style="color: #f36100;">STRENGTH WEIGHTLIFTING</p>
+                                    <h5 class="card-text"><b>WEIGHTLIFTING</b></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" id="brdd"> <!-- card2-->
+                                    <img src="images/class-2.jpg" class="card-img-top">
+                                <div class="card-body" id="cc"> 
+                                    <p class="card-title"style="color: #f36100;">CARDIO</p>
+                                    <h5 class="card-text"><b>INDOOR CYCLING</b></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" id="brdd"> <!-- card3-->
+                                    <img src="images/class-3.jpg" class="card-img-top">
+                                <div class="card-body" id="cc"> 
+                                    <p class="card-title"style="color: #f36100;">STRENGTH</p>
+                                    <h5 class="card-text"><b>KETTLEBELL POWER</b></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container cd2">
+                    <div class="row row-cols-1 row-cols-md-2 g-4"> <!-- 2nd row-->
+                        <div class="col">
+                            <div class="card h-100" id="brdd"> <!-- card4-->
+                                    <img src="images/class-4.jpg" class="card-img-top">
+                                <div class="card-body" id="cc"> 
+                                    <p class="card-title"style="color: #f36100;">CARDIO</p>
+                                    <h5 class="card-text"><b>INDOOR CYCLING</b></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" id="brdd"> <!-- card5-->
+                                    <img src="images/class-5.jpg" class="card-img-top">
+                                <div class="card-body" id="cc"> 
+                                    <p class="card-title" style="color: #f36100;">TRAINING</p>
+                                    <h5 class="card-text"><b>BOXING</b></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!-- 5th division         d5 class-->    
+        <div class="container-fluid d5">
+            <div>
+                <img src="images/banner-bb.jpg">
+            </div>
+            <!-- <div class="container cntainrr">
+                <div class="bannerhead">
+                    <h2>REGISTRATION NOW TO GET MORE DEALS</h2><br>
+                    <p>WHERE HEALTH, BEAUTY AND FITNESS MEET.</p><br><br>
+                    <a href="#" class="buutn">APPOINTMENT</a>
+                </div>
+            </div> -->
+            
+        <!-- 6th division       plans class -->
+        <div class="container-fluid plans" id="dd6">
+            <div class="tophead3" data-aos="zoom-out" data-aos-duration="1500">
+                <p>OUR PLANS</p>
+                <h2>CHOOSE YOUR PRICING PLAN</h2>
+            </div>
+
+            <div class="container cntr">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-8">
+                        <div class="ps-item">
+                            <h3>Class drop-in</h3>
+                            <div class="pi-price">
+                                <h2>$ 39.0</h2>
+                                <span>SINGLE CLASS</span>
+                            </div>
+                            <ul>
+                                <li>Free riding</li>
+                                <li>Unlimited equipments</li>
+                                <li>Personal trainer</li>
+                                <li>Weight losing classes</li>
+                                <li>Month to mouth</li>
+                                <li>No time restriction</li>
+                            </ul>
+                            <a href="#" class="primary-btn pricing-btn">Enroll now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-8">
+                        <div class="ps-item">
+                            <h3>12 Month unlimited</h3>
+                            <div class="pi-price">
+                                <h2>$ 99.0</h2>
+                                <span>SINGLE CLASS</span>
+                            </div>
+                            <ul>
+                                <li>Free riding</li>
+                                <li>Unlimited equipments</li>
+                                <li>Personal trainer</li>
+                                <li>Weight losing classes</li>
+                                <li>Month to mouth</li>
+                                <li>No time restriction</li>
+                            </ul>
+                            <a href="#" class="primary-btn pricing-btn">Enroll now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-8">
+                        <div class="ps-item">
+                            <h3>6 Month unlimited</h3>
+                            <div class="pi-price">
+                                <h2>$ 59.0</h2>
+                                <span>SINGLE CLASS</span>
+                            </div>
+                            <ul>
+                                <li>Free riding</li>
+                                <li>Unlimited equipments</li>
+                                <li>Personal trainer</li>
+                                <li>Weight losing classes</li>
+                                <li>Month to mouth</li>
+                                <li>No time restriction</li>
+                            </ul>
+                            <a href="#" class="primary-btn pricing-btn">Enroll now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 7th division -->
+        <div class="container-fluid d7" id="dd7">
+            <div class="row r1">
+                <div class="col-md-6 c cimg1" id="ci">
+                    <img src="images/gallery-1.jpg">
+                </div>
+
+                <div class="col-md-3 c cimg2" id="ci">
+                    <img src="images/gallery-2.jpg">
+                </div>
+
+                <div class="col-md-3 c cimg3" id="ci">
+                    <img src="images/gallery-3.jpg">
+                </div>
+            </div>
+            <div class="row r2">
+                <div class="col-md-3 c cimg4" id="ci">
+                    <img src="images/gallery-4.jpg">
+                </div>
+                <div class="col-md-3 c cimg5" id="ci">
+                    <img src="images/gallery-5.jpg">
+                </div>
+                <div class="col-md-6 c cimg6" id="ci">
+                    <img src="images/gallery-6.jpg">
+                </div>
+            </div>
+        </div>
+
+        <!-- 8th division -->
+        <div class="container-fluid d8" id="dd8">
+            <div class="container cntaainr">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card h-100" id="cr1">
+                            <div class="card-body">
+                                <div class="cbb1">
+                                    <img src="images/logo.png" class="card-img-top">
+                                    <p class="card-text"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua endisse ultrices gravida lorem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100" id="cr1">
+                            <div class="card-body">
+                                <div class="cbb2" id="cb">
+                                    <h5 id="headingg">Useful links</h5><br>
+                                    <a href="#"> About</a><br>
+                                    <a href="#"> Blog</a><br>
+                                    <a href="#"> Classes</a><br>
+                                    <a href="#"> Contact</a><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                    <div class="card h-100" id="cr1">
+                        <div class="card-body">
+                            <div class="cbb3" id="cb">
+                                <h5 id="headingg">Support</h5><br>
+                                <a href="#"> Login</a><br>
+                                <a href="#"> My account</a><br>
+                                <a href="#"> Subscribe</a><br>
+                                <a href="#"> Contact</a><br>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100" id="cr1">
+                            <div class="card-body">
+                                <div class="cbb4" id="cb">
+                                    <h5 id="headingg">Tips & Guides</h5><br>
+                                    <div class="tip1">
+                                        <p>Physical fitness may help prevent depression, anxiety</p>
+                                    </div>
+                                    <div class="tip2">
+                                        <p>Fitness: The best exercise to lose belly fat and tone up...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer">
+            <p>Copyright ©2024 All rights reserved | This template is made by <span style="color: #f36100;">V'creaters</span></p>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
